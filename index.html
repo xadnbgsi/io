@@ -74,23 +74,38 @@
     });
   </script>
 
-  <script>
-    window['nitroAds'].createAd('anchor', {
-      "refreshTime": 30,
-      "format": "anchor-v2",
-      "anchor": "bottom",
-      "anchorBgColor": "transparent",
-      "anchorPersistClose": false,
-      "report": {
-        "enabled": true,
-        "icon": true,
-        "wording": "Report Ad",
-        "position": "top-right"
-      },
-      "mediaQuery": "(min-width: 1025px), (min-width: 768px) and (max-width: 1024px), (min-width: 320px) and (max-width: 767px)"
-    });
-  </script>
+    <script>
+        window['nitroAds'].createAd('anchor', {
+        "refreshTime": 30,
+        "format": "anchor-v2",
+        "anchor": "bottom",
+        "anchorBgColor": "transparent",
+        "anchorPersistClose": false,
+        "report": {
+            "enabled": true,
+            "icon": true,
+            "wording": "Report Ad",
+            "position": "top-right"
+        },
+        "mediaQuery": "(min-width: 1025px), (min-width: 768px) and (max-width: 1024px), (min-width: 320px) and (max-width: 767px)"
+        });
+    </script>
 
+<script>
+window['nitroAds'].createAd('top-anchor', {
+  "refreshTime": 30,
+  "format": "anchor-v2",
+  "anchor": "top",
+  "anchorPersistClose": false,
+  "mediaQuery": "(min-width: 0px)",
+  "report": {
+    "enabled": true,
+    "icon": true,
+    "wording": "Report Ad",
+    "position": "bottom-right"
+  }
+});
+</script>
 
   <style>
     #sticky-stack-1 {
